@@ -124,6 +124,7 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 ;;
+;;
 
 (setenv "PATH" (concat (getenv "PATH") ":/opt/homebrew/bin:/Users/luca/.local/bin"))
 (add-to-list 'exec-path "/opt/homebrew/bin")
