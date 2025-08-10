@@ -54,3 +54,10 @@
            :repo "awth13/org-appear"))
 
 (package! aidermacs)
+
+(package! org-reveal)
+(package! ox-reveal)
+
+(package! org-excalidraw
+  :recipe (:host github
+           :repo "wdavew/org-excalidraw"))

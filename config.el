@@ -60,6 +60,9 @@
   (setq org-log-done t)
   (setq org-log-into-drawer t))
 
+(after! org-excalidraw
+  (setq org-excalidraw-directory "~/org/excalidraw" t))
+
 (add-hook! org-mode :append #'org-appear-mode)
 
 (after! org
