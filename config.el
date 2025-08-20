@@ -129,7 +129,7 @@
 ;;
 ;;
 
-(setenv "PATH" (concat (getenv "PATH") ":/opt/homebrew/bin:/Users/luca/.local/bin"))
+(setenv "PATH" (concat (getenv "PATH") ":/opt/homebrew/bin:/Users/luca/.local/bin:/Library/TeX/texbin"))
 (add-to-list 'exec-path "/opt/homebrew/bin")
 (add-to-list 'exec-path "/Users/luca/.local/bin")
 
